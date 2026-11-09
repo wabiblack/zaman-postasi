@@ -1,0 +1,121 @@
+{
+  "characters": {
+    "H": "Hasan Usta — fırıncı, 46",
+    "F": "Feride — öğretmen adayı, 19",
+    "N": "Nermin — telgraf görevlisi, 28",
+    "C": "Cemil Usta — değirmen ustabaşı, 41"
+  },
+  "letter_budget": 3,
+  "letters": [
+    {
+      "id": "H1",
+      "recipient": "H",
+      "topic": "Gaz lambası",
+      "advice": "Ocakları söndür, fırını üç gün kapat.",
+      "heat": -2,
+      "suspicion": 1,
+      "consequence": "Fırın kurtulabilir, gelir kaybı Feride’yi göçe zorlayabilir."
+    },
+    {
+      "id": "H2",
+      "recipient": "H",
+      "topic": "Kömür çuvalları",
+      "advice": "Kömür çuvallarını dere menfezine taşı.",
+      "heat": -1,
+      "suspicion": 1,
+      "consequence": "Yangın riski azalır, menfez tıkanır."
+    },
+    {
+      "id": "H3",
+      "recipient": "H",
+      "topic": "Komşuların yardımı",
+      "advice": "Mahalleliyi kum kovalarıyla nöbete çağır.",
+      "heat": -1,
+      "suspicion": 1,
+      "consequence": "Bir yangın kaybı önlenir, söylenti büyür."
+    },
+    {
+      "id": "F1",
+      "recipient": "F",
+      "topic": "Fırın gecesi",
+      "advice": "İki komşuyla gece nöbeti kur.",
+      "heat": -1,
+      "suspicion": 2,
+      "consequence": "Alevler erken görülür, Feride kalır ve şüphelenir."
+    },
+    {
+      "id": "F2",
+      "recipient": "F",
+      "topic": "Sağlık eğitimi",
+      "advice": "İstanbul’daki sıhhiye kursuna git.",
+      "heat": 0,
+      "suspicion": 1,
+      "consequence": "Feride gider; okul açılmaz, sağlık bağlantısı kurulur."
+    },
+    {
+      "id": "F3",
+      "recipient": "F",
+      "topic": "Ders defterleri",
+      "advice": "Defterleri değirmenin ambarına taşı.",
+      "heat": 0,
+      "suspicion": 1,
+      "consequence": "Okul umudu ve defterler korunur; değirmen aksar."
+    },
+    {
+      "id": "N1",
+      "recipient": "N",
+      "topic": "Gece uyarısı",
+      "advice": "Gece yarısı yangın çanını çal.",
+      "heat": 0,
+      "suspicion": 2,
+      "consequence": "İki ölüm önlenebilir, köprüde izdiham olur."
+    },
+    {
+      "id": "N2",
+      "recipient": "N",
+      "topic": "Telgraf kayıtları",
+      "advice": "Kayıtların kopyasını gizli bir yere sakla.",
+      "heat": 0,
+      "suspicion": 1,
+      "consequence": "Kanıt korunur, söylentiler artar."
+    },
+    {
+      "id": "N3",
+      "recipient": "N",
+      "topic": "Geciken telgraf",
+      "advice": "Acil uyarıyı Cemil Usta’ya ulaştır.",
+      "heat": -1,
+      "suspicion": 1,
+      "consequence": "Yangın azalır, üretim ve gelir kaybı olur."
+    },
+    {
+      "id": "C1",
+      "recipient": "C",
+      "topic": "Eski lambalar",
+      "advice": "Bütün eski lambaları yenileriyle değiştir.",
+      "heat": -2,
+      "suspicion": 1,
+      "consequence": "Alev riski düşer, borç doğar ve eski lamba kaybolur."
+    },
+    {
+      "id": "C2",
+      "recipient": "C",
+      "topic": "Kömür deposu",
+      "advice": "Kömürü menfezin kıyısına boşalt.",
+      "heat": -1,
+      "suspicion": 1,
+      "consequence": "Yangın azalır, menfez tıkanır ve dere kirlenir."
+    },
+    {
+      "id": "C3",
+      "recipient": "C",
+      "topic": "Bakım defteri",
+      "advice": "Eksik imzalı defteri muhtara teslim et.",
+      "heat": 0,
+      "suspicion": 2,
+      "consequence": "İhmal belgelenir, soruşturma üretimi aksatır."
+    }
+  ],
+  "rules": "H=max(0,5+sum(ΔH)); 0–1 önlendi; 2–3 kontrol altında; 4–5 büyük yangın; ayrıntılı sonuçlar test dosyasında",
+  "tested_states": 175
+}

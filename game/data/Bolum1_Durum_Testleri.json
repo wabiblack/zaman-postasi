@@ -1,0 +1,3945 @@
+[
+ {
+  "letters": [],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F1"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F2"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "N1"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "N2"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "N3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "C1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "C2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "C3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 3,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "N1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "N1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 1,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "N1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "N2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "N2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "N2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "N3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "N3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "N3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F1",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F1",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F1",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F2",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F2",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F2",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F3",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F3",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F3",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F1",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F1",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F1",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F2",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F2",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F2",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F3",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F3",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F3",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F1",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F1",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F1",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F2",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F2",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F2",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F3",
+   "N1"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F3",
+   "N2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F3",
+   "N3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 0,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "F3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "açık",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 3,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 3,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 3,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "F3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "açık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "F3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 1,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 0,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H1",
+   "N3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "kapalı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 3,
+   "bridge_stress": 1,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 3,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "açık",
+   "archive": false,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 3,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "H2",
+   "N3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 1,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 1,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 3,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 3
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "açık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "H3",
+   "N3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 1,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 1,
+   "fire": "önlendi",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "açık",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F1",
+   "N3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 1,
+   "pollution": 1,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 1,
+   "factory_debt": 0,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 1,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F2",
+   "N3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": false,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 1,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N1",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 0,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N1",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 1,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N1",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 2,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 1,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N2",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N2",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 1,
+   "rumor": 1
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N2",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 5,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 2
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N3",
+   "C1"
+  ],
+  "outcome": {
+   "heat": 2,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 3,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N3",
+   "C2"
+  ],
+  "outcome": {
+   "heat": 3,
+   "fire": "kontrol altında",
+   "deaths": 1,
+   "hasan_survives": true,
+   "feride_stays": true,
+   "school": true,
+   "bakery": "hasarlı",
+   "archive": false,
+   "culvert": 2,
+   "bridge_stress": 0,
+   "pollution": 1,
+   "health_contact": 0,
+   "factory_debt": 2,
+   "rumor": 0
+  }
+ },
+ {
+  "letters": [
+   "F3",
+   "N3",
+   "C3"
+  ],
+  "outcome": {
+   "heat": 4,
+   "fire": "büyük yangın",
+   "deaths": 4,
+   "hasan_survives": false,
+   "feride_stays": true,
+   "school": false,
+   "bakery": "yıkık",
+   "archive": true,
+   "culvert": 0,
+   "bridge_stress": 0,
+   "pollution": 0,
+   "health_contact": 0,
+   "factory_debt": 3,
+   "rumor": 1
+  }
+ }
+]
