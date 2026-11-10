@@ -120,7 +120,7 @@ func summarize_turkish(result: Dictionary) -> String:
 	else:
 		lines.append("Yangının kökeni tam ispatlanamadı.")
 	if int(result.get("factory_debt", 0)) > 0:
-		lines.append("Değirmen borcu tohumu: +%d" % int(result.factory_debt))
+		lines.append("Değirmen borcu tutarı: +%d" % int(result.factory_debt))
 	if int(result.get("rumor", 0)) > 0:
 		lines.append("Söylenti: +%d" % int(result.rumor))
 	return "\n".join(lines)

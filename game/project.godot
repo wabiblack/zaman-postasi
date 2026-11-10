@@ -16,6 +16,7 @@ StoryResolver="*res://autoload/StoryResolver.gd"
 GameState="*res://autoload/GameState.gd"
 SaveManager="*res://autoload/SaveManager.gd"
 AudioManager="*res://autoload/AudioManager.gd"
+UITheme="*res://autoload/UITheme.gd"
 
 [display]
 
@@ -32,7 +33,7 @@ window/handheld/orientation=1
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
-environment/defaults/default_clear_color=Color(0.28, 0.2, 0.14, 1)
+environment/defaults/default_clear_color=Color(0.231, 0.165, 0.118, 1)
 
 [input_devices]
 
