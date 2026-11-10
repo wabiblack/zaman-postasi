@@ -502,7 +502,7 @@ func _build_opening() -> void:
 	v.add_child(pad_top)
 	opening_art = TextureRect.new()
 	opening_art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	opening_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+	opening_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	opening_art.custom_minimum_size = Vector2(0, 280)
 	opening_art.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	v.add_child(opening_art)
@@ -736,19 +736,18 @@ func _fit_overlay_card() -> void:
 		return
 	var max_w: int = mini(560, int(size.x * 0.92))
 	var max_h: int = int(size.y * 0.78)
-	overlay_body.custom_minimum_size = Vector2(max_w - 48, 0)
+	var body_w: int = maxi(200, max_w - 48)
+	overlay_body.custom_minimum_size = Vector2(body_w, 0)
 	overlay_card.custom_minimum_size = Vector2(max_w, 0)
-	# After a frame, clamp height if needed.
+	overlay_body_scroll.custom_minimum_size = Vector2(body_w, 40)
 	await get_tree().process_frame
-	if not is_instance_valid(overlay_card):
+	if not is_instance_valid(overlay_card) or not overlay.visible:
 		return
-	var want: float = overlay_card.get_combined_minimum_size().y
-	if want > max_h:
-		overlay_card.custom_minimum_size = Vector2(max_w, max_h)
-		overlay_body_scroll.custom_minimum_size = Vector2(0, maxi(80, max_h - 180))
-	else:
-		overlay_card.custom_minimum_size = Vector2(max_w, 0)
-		overlay_body_scroll.custom_minimum_size = Vector2(0, 0)
+	var body_h: int = int(overlay_body.get_content_height()) + 8
+	var reserved: int = 150  # title + buttons + margins
+	var max_body: int = maxi(80, max_h - reserved)
+	overlay_body_scroll.custom_minimum_size = Vector2(body_w, mini(body_h, max_body))
+	overlay_card.custom_minimum_size = Vector2(max_w, 0)
 
 func _show_help() -> void:
 	_show_overlay("Nasıl oynanır?",
