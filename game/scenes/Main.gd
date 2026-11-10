@@ -66,6 +66,7 @@ var letter_list: VBoxContainer
 var letter_preview: Label
 var letter_portrait_row: HBoxContainer
 var letter_portrait: TextureRect
+var letter_portrait_intro: Label
 var result_portrait_row: HBoxContainer
 var result_portraits: Dictionary = {}
 var overlay_portrait: TextureRect
@@ -381,10 +382,16 @@ func _build_letter_panel() -> Control:
 	letter_portrait_row.visible = false
 	v.add_child(letter_portrait_row)
 	letter_portrait = TextureRect.new()
-	letter_portrait.custom_minimum_size = Vector2(96, 96)
+	letter_portrait.custom_minimum_size = Vector2(112, 112)
 	letter_portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	letter_portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
 	letter_portrait_row.add_child(letter_portrait)
+	letter_portrait_intro = Label.new()
+	letter_portrait_intro.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	letter_portrait_intro.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	letter_portrait_intro.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	_apply_font(letter_portrait_intro, 14, COL_MUTED)
+	letter_portrait_row.add_child(letter_portrait_intro)
 	var scroll := ScrollContainer.new()
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	v.add_child(scroll)
@@ -870,12 +877,6 @@ func _refresh_letter_panel() -> void:
 	if GameState.has_sent_to(composer_recipient):
 		letter_preview.text = "Bu kişiye zaten mektup gönderdin."
 		return
-	var ch: Dictionary = GameState.CHARACTERS_STORY.get(composer_recipient, {})
-	var intro := Label.new()
-	intro.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	intro.text = "%s, %s — %s" % [ch.get("name", ""), ch.get("role", ""), ch.get("intro", "")]
-	_apply_font(intro, 14, COL_MUTED)
-	letter_list.add_child(intro)
 	var letters: Array = ChapterDatabase.letters_by_recipient.get(composer_recipient, [])
 	for L in letters:
 		var lid: String = L["id"]
@@ -910,6 +911,9 @@ func _update_letter_portrait() -> void:
 	var path := GameState.portrait_path(composer_recipient, GameState.composer_expression(composer_recipient, composer_letter_id))
 	if path != "":
 		letter_portrait.texture = load(path)
+	var ch: Dictionary = GameState.CHARACTERS_STORY.get(composer_recipient, {})
+	if letter_portrait_intro:
+		letter_portrait_intro.text = "%s, %s — %s" % [ch.get("name", ""), ch.get("role", ""), ch.get("intro", "")]
 
 
 func _select_letter(lid: String) -> void:
