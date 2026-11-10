@@ -52,7 +52,7 @@ const CHARACTERS_STORY := {
 		"name": "Hasan Usta",
 		"age": 46,
 		"role": "Fırıncı",
-		"portrait": "res://art/portrait_hasan.png",
+		"portrait": "res://art/portraits/hasan_normal.webp",
 		"intro": "Feride'nin babası. Ekmek ve namus arasında sıkışmış; iftira edilmekten korkar.",
 	},
 	"F": {
@@ -60,7 +60,7 @@ const CHARACTERS_STORY := {
 		"name": "Feride",
 		"age": 19,
 		"role": "Öğretmen adayı",
-		"portrait": "res://art/portrait_feride.png",
+		"portrait": "res://art/portraits/feride_normal.webp",
 		"intro": "Çocuklara ders vermek isteyen, inatçı ve meraklı bir genç. Okul umudu ile şehirdeki sağlık eğitimi arasında kalmıştır.",
 	},
 	"N": {
@@ -68,7 +68,7 @@ const CHARACTERS_STORY := {
 		"name": "Nermin",
 		"age": 28,
 		"role": "Telgraf görevlisi",
-		"portrait": "res://art/portrait_nermin.png",
+		"portrait": "res://art/portraits/nermin_normal.webp",
 		"intro": "Dikkatli, kuşkucu, kayıt tutmayı sever. Teslim defterindeki eksik satır onu rahatsız eder.",
 	},
 	"C": {
@@ -76,10 +76,79 @@ const CHARACTERS_STORY := {
 		"name": "Cemil Usta",
 		"age": 41,
 		"role": "Değirmen ustabaşı",
-		"portrait": "res://art/portrait_cemil.png",
+		"portrait": "res://art/portraits/cemil_normal.webp",
 		"intro": "İşçiler ve makineler arasında kalmıştır. Eski gaz lambalarına bütçe ayrılmamıştır; fırınla aynı kömür ve lamba riskini paylaşır.",
 	},
 }
+
+
+const PORTRAIT_STEM := {
+	"H": "hasan",
+	"F": "feride",
+	"N": "nermin",
+	"C": "cemil",
+}
+
+const PORTRAIT_EXPRS := ["normal", "supheli", "mutlu", "uzgun", "korkmus", "tamboy"]
+
+
+func portrait_path(cid: String, expr: String = "normal") -> String:
+	var stem := str(PORTRAIT_STEM.get(cid, ""))
+	if stem == "":
+		return ""
+	if not PORTRAIT_EXPRS.has(expr):
+		expr = "normal"
+	return "res://art/portraits/%s_%s.webp" % [stem, expr]
+
+
+func reply_expression(letter_id: String) -> String:
+	var letter: Dictionary = ChapterDatabase.get_letter(letter_id)
+	if int(letter.get("suspicion", 1)) >= 1:
+		return "supheli"
+	return "normal"
+
+
+func composer_expression(cid: String, letter_id: String = "") -> String:
+	if letter_id != "":
+		var letter: Dictionary = ChapterDatabase.get_letter(letter_id)
+		if int(letter.get("suspicion", 1)) >= 2:
+			return "supheli"
+	var susp = last_result.get("suspicion", {})
+	if typeof(susp) == TYPE_DICTIONARY and int(susp.get(cid, 0)) >= 2:
+		return "supheli"
+	return "normal"
+
+
+func ending_expression(cid: String) -> String:
+	var r: Dictionary = last_result
+	var fire := str(r.get("fire", ""))
+	var susp = r.get("suspicion", {})
+	var sus := 0
+	if typeof(susp) == TYPE_DICTIONARY:
+		sus = int(susp.get(cid, 0))
+	# Losses first, then a bad fire, then suspicion, then relief.
+	if cid == "H" and not bool(r.get("hasan_survives", false)):
+		return "uzgun"
+	if cid == "F" and not bool(r.get("feride_stays", false)):
+		return "uzgun"
+	if fire == "büyük yangın":
+		return "korkmus"
+	if sus >= 2:
+		return "supheli"
+	if cid == "H" and bool(r.get("hasan_survives", false)):
+		return "mutlu"
+	if cid == "F" and bool(r.get("feride_stays", false)):
+		return "mutlu"
+	if cid == "N" and (bool(r.get("archive", false)) or fire == "önlendi"):
+		return "mutlu"
+	if cid == "C" and fire in ["önlendi", "kontrol altında"]:
+		return "mutlu"
+	if fire == "önlendi":
+		return "mutlu"
+	if sus >= 1:
+		return "supheli"
+	return "normal"
+
 
 var sent_letter_ids: Array = []
 var observed_clues: Array = []

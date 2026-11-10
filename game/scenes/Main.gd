@@ -1,15 +1,15 @@
 extends Control
 ## Zaman Postası — Bölüm 1 prototip arayüzü.
 
-const COL_BG := Color("473324")
-const COL_PAPER := Color("E8D5B5")
-const COL_PAPER_DARK := Color("D4B896")
-const COL_INK := Color("2B1B12")
-const COL_ACCENT := Color("C45C26")
-const COL_GOOD := Color("3E6B4F")
-const COL_BAD := Color("8B3A2A")
-const COL_MUTED := Color("8A7058")
-const COL_PANEL := Color("5A3D28")
+const COL_BG := Color("3F2A1C")
+const COL_PAPER := Color("E2CBA8")
+const COL_PAPER_DARK := Color("CDB086")
+const COL_INK := Color("2A1A10")
+const COL_ACCENT := Color("B35C2E")
+const COL_GOOD := Color("4A6648")
+const COL_BAD := Color("7A3A28")
+const COL_MUTED := Color("8A6E52")
+const COL_PANEL := Color("4C3222")
 
 const OPENING := [
 	{"art": "res://art/open_1.png", "title": "Sarı zarf", "body": "Büyükannemin sandığından sarı bir zarf çıktı. 1925 yangınında kaybettiği bir can... benim de köküm. Zarf yıllarca açılmamıştı."},
@@ -64,6 +64,11 @@ var composer_recipient: String = ""
 var composer_letter_id: String = ""
 var letter_list: VBoxContainer
 var letter_preview: Label
+var letter_portrait_row: HBoxContainer
+var letter_portrait: TextureRect
+var result_portrait_row: HBoxContainer
+var result_portraits: Dictionary = {}
+var overlay_portrait: TextureRect
 var recip_buttons: Dictionary = {}
 var help_btn: Button
 
@@ -371,6 +376,15 @@ func _build_letter_panel() -> Control:
 		var b3 := _mk_btn(item[0], 90, 40)
 		b3.pressed.connect(_set_sign.bind(item[1]))
 		style_row.add_child(b3)
+	letter_portrait_row = HBoxContainer.new()
+	letter_portrait_row.add_theme_constant_override("separation", 10)
+	letter_portrait_row.visible = false
+	v.add_child(letter_portrait_row)
+	letter_portrait = TextureRect.new()
+	letter_portrait.custom_minimum_size = Vector2(96, 96)
+	letter_portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	letter_portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+	letter_portrait_row.add_child(letter_portrait)
 	var scroll := ScrollContainer.new()
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	v.add_child(scroll)
@@ -442,6 +456,28 @@ func _build_journal_panel() -> Control:
 func _build_result_panel() -> Control:
 	var wrap := _build_text_panel("Bölüm Sonu · Külün Kokusu")
 	var v: VBoxContainer = wrap.get_child(1).get_child(0)
+	result_portrait_row = HBoxContainer.new()
+	result_portrait_row.add_theme_constant_override("separation", 8)
+	result_portrait_row.alignment = BoxContainer.ALIGNMENT_CENTER
+	v.add_child(result_portrait_row)
+	v.move_child(result_portrait_row, 1)
+	for cid in ["H", "F", "N", "C"]:
+		var col := VBoxContainer.new()
+		col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		col.add_theme_constant_override("separation", 4)
+		var img := TextureRect.new()
+		img.custom_minimum_size = Vector2(72, 72)
+		img.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		img.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+		img.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		col.add_child(img)
+		var cap := Label.new()
+		cap.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		cap.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		_apply_font(cap, 11, COL_INK)
+		col.add_child(cap)
+		result_portrait_row.add_child(col)
+		result_portraits[cid] = {"img": img, "cap": cap}
 	var replay := _mk_btn("Tekrar oyna", 0, 56)
 	replay.pressed.connect(_on_confirm_restart)
 	v.add_child(replay)
@@ -565,6 +601,13 @@ func _build_overlay() -> void:
 	overlay_title.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	_apply_font(overlay_title, 22, COL_INK)
 	v.add_child(overlay_title)
+	overlay_portrait = TextureRect.new()
+	overlay_portrait.visible = false
+	overlay_portrait.custom_minimum_size = Vector2(120, 120)
+	overlay_portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	overlay_portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+	overlay_portrait.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+	v.add_child(overlay_portrait)
 	overlay_body_scroll = ScrollContainer.new()
 	overlay_body_scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	v.add_child(overlay_body_scroll)
@@ -718,8 +761,15 @@ func _hide_overlay() -> void:
 	overlay.visible = false
 	# Do not change current_panel. Layout stays put.
 
-func _show_overlay(title: String, body: String, extra_btns: Array = [], close_label: String = "Tamam") -> void:
+func _show_overlay(title: String, body: String, extra_btns: Array = [], close_label: String = "Tamam", portrait_path: String = "") -> void:
 	overlay_title.text = title
+	if overlay_portrait:
+		if portrait_path != "":
+			overlay_portrait.texture = load(portrait_path)
+			overlay_portrait.visible = true
+		else:
+			overlay_portrait.visible = false
+			overlay_portrait.texture = null
 	overlay_body.text = body
 	for c in overlay_extra.get_children():
 		c.queue_free()
@@ -745,6 +795,8 @@ func _fit_overlay_card() -> void:
 		return
 	var body_h: int = int(overlay_body.get_content_height()) + 8
 	var reserved: int = 150  # title + buttons + margins
+	if overlay_portrait and overlay_portrait.visible:
+		reserved += 128
 	var max_body: int = maxi(80, max_h - reserved)
 	overlay_body_scroll.custom_minimum_size = Vector2(body_w, mini(body_h, max_body))
 	overlay_card.custom_minimum_size = Vector2(max_w, 0)
@@ -810,8 +862,11 @@ func _refresh_letter_panel() -> void:
 		b.text = ("✓ " if written else "") + str(info["name"])
 		b.disabled = written
 	if composer_recipient == "":
+		if letter_portrait_row:
+			letter_portrait_row.visible = false
 		letter_preview.text = "Önce bir alıcı seç. Her kişinin mesleğini Defter'de okuyabilirsin."
 		return
+	_update_letter_portrait()
 	if GameState.has_sent_to(composer_recipient):
 		letter_preview.text = "Bu kişiye zaten mektup gönderdin."
 		return
@@ -846,8 +901,20 @@ func _refresh_letter_panel() -> void:
 	else:
 		_select_letter(composer_letter_id)
 
+func _update_letter_portrait() -> void:
+	if letter_portrait == null or composer_recipient == "":
+		if letter_portrait_row:
+			letter_portrait_row.visible = false
+		return
+	letter_portrait_row.visible = true
+	var path := GameState.portrait_path(composer_recipient, GameState.composer_expression(composer_recipient, composer_letter_id))
+	if path != "":
+		letter_portrait.texture = load(path)
+
+
 func _select_letter(lid: String) -> void:
 	composer_letter_id = lid
+	_update_letter_portrait()
 	var L: Dictionary = ChapterDatabase.get_letter(lid)
 	var heat_n := int(L.get("heat", 0))
 	var heat_words := "Yangın ısısını değiştirmez."
@@ -916,7 +983,9 @@ func _on_letter_sent(letter_id: String, _result: Dictionary) -> void:
 		GameState.flavor_reply(letter_id),
 		StoryResolver.summarize_turkish(GameState.last_result),
 	]
-	_show_overlay("Mektup yola çıktı · %s" % letter_id, body)
+	var recip := str(L.get("recipient", ""))
+	var port := GameState.portrait_path(recip, GameState.reply_expression(letter_id))
+	_show_overlay("Mektup yola çıktı · %s" % letter_id, body, [], "Tamam", port)
 	_refresh_all()
 
 func _on_clue_found(_id: String) -> void:
@@ -1056,19 +1125,34 @@ func _character_pages() -> String:
 	var s := "Haritadaki izler bu insanları somutlar. Mektup atmadan önce bir bak.\n\n"
 	for cid in ["H", "F", "N", "C"]:
 		var c: Dictionary = GameState.CHARACTERS_STORY[cid]
-		s += "[img=90x112]%s[/img]  [b]%s[/b]  ·  %s, %d\n%s\n\n" % [c["portrait"], c["name"], c["role"], int(c["age"]), c["intro"]]
+		var full: String = GameState.portrait_path(cid, "tamboy")
+		s += "[img=126x168]%s[/img]\n[b]%s[/b]  ·  %s, %d\n%s\n\n" % [full, c["name"], c["role"], int(c["age"]), c["intro"]]
 	return s
 
 func _relationship_text() -> String:
+	var h := "[img=40x40]%s[/img]" % GameState.portrait_path("H", "normal")
+	var f := "[img=40x40]%s[/img]" % GameState.portrait_path("F", "normal")
+	var n := "[img=40x40]%s[/img]" % GameState.portrait_path("N", "normal")
+	var c := "[img=40x40]%s[/img]" % GameState.portrait_path("C", "normal")
 	return "[b]İğdeyaka bağları[/b]\n\n" \
-		+ "Hasan Usta  —  baba/kız  —  Feride\n" \
-		+ "Hasan Usta  —  ortak kömür ve gaz lambası  —  Cemil Usta\n" \
-		+ "Nermin  —  telgraf uyarısı  —  Cemil Usta\n" \
-		+ "Feride  —  okul umudu / ders defterleri  —  değirmen ambarı (Cemil Usta)\n\n" \
+		+ "%s Hasan Usta  —  baba/kız  —  Feride %s\n" % [h, f] \
+		+ "%s Hasan Usta  —  ortak kömür ve gaz lambası  —  Cemil Usta %s\n" % [h, c] \
+		+ "%s Nermin  —  telgraf uyarısı  —  Cemil Usta %s\n" % [n, c] \
+		+ "%s Feride  —  okul umudu / ders defterleri  —  değirmen ambarı (Cemil Usta) %s\n\n" % [f, c] \
 		+ "[b]Neden Cemil Usta'ya mektup Hasan'ı kurtarabilir?[/b]\n" \
 		+ "Yangın, değirmendeki bakımsız gaz lambasından ortak kömüre ve oradan fırına sıçrar. Cemil Usta lambaları değiştirirse (C1) yangın ısısı düşer. Isı 4'ün altına inince Hasan Usta'ya hiç mektup gitmese de hayatta kalır. Bu bir hata değil; aynı gecenin paylaşılmış riskidir."
 
 func _refresh_result() -> void:
+	for cid in result_portraits:
+		var slot: Dictionary = result_portraits[cid]
+		var info: Dictionary = GameState.CHARACTERS_STORY[cid]
+		var expr: String = GameState.ending_expression(cid)
+		var img: TextureRect = slot["img"]
+		var cap: Label = slot["cap"]
+		var path := GameState.portrait_path(cid, expr)
+		if path != "":
+			img.texture = load(path)
+		cap.text = str(info["name"])
 	var body: RichTextLabel = result_panel.find_child("Body", true, false)
 	if body:
 		body.text = GameState.ending_summary()

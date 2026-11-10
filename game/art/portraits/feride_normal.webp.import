@@ -2,22 +2,22 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dw2y1ts8e1ee3"
-path="res://.godot/imported/portrait_nermin.png-8039bc93c446a746fe3aee0615977574.ctex"
+uid="uid://cl85m4i23nlg8"
+path="res://.godot/imported/feride_normal.webp-152125e53af33c3724f4c84478e3de7e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/portrait_nermin.png"
-dest_files=["res://.godot/imported/portrait_nermin.png-8039bc93c446a746fe3aee0615977574.ctex"]
+source_file="res://art/portraits/feride_normal.webp"
+dest_files=["res://.godot/imported/feride_normal.webp-152125e53af33c3724f4c84478e3de7e.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.8
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

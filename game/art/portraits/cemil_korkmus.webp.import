@@ -2,22 +2,22 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://t4s46mn32kso"
-path="res://.godot/imported/portrait_hasan.png-824d4d5dbab5243bbe6038f0bf51d295.ctex"
+uid="uid://gcwxjjdduprk"
+path="res://.godot/imported/cemil_korkmus.webp-5fbd5f899e3d438cf5bb88b0d406b981.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/portrait_hasan.png"
-dest_files=["res://.godot/imported/portrait_hasan.png-824d4d5dbab5243bbe6038f0bf51d295.ctex"]
+source_file="res://art/portraits/cemil_korkmus.webp"
+dest_files=["res://.godot/imported/cemil_korkmus.webp-5fbd5f899e3d438cf5bb88b0d406b981.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.8
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
